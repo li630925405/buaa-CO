@@ -1,0 +1,52 @@
+Running: E:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -o E:/homework/CC/verilog_pipeline/pipeline_nolayer/test_isim_beh.exe -prj E:/homework/CC/verilog_pipeline/pipeline_nolayer/test_beh.prj work.test work.glbl 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Analyzing Verilog file "E:/homework/CC/verilog_pipeline/pipeline_nolayer/mux.v" into library work
+Analyzing Verilog file "E:/homework/CC/verilog_pipeline/pipeline_nolayer/main_ctrl.v" into library work
+Analyzing Verilog file "E:/homework/CC/verilog_pipeline/pipeline_nolayer/../../../../ISE lyz/ext/ext.v" into library work
+Analyzing Verilog file "E:/homework/CC/verilog_pipeline/pipeline_nolayer/stall.v" into library work
+Analyzing Verilog file "E:/homework/CC/verilog_pipeline/pipeline_nolayer/R_pipe.v" into library work
+Analyzing Verilog file "E:/homework/CC/verilog_pipeline/pipeline_nolayer/RF.v" into library work
+Analyzing Verilog file "E:/homework/CC/verilog_pipeline/pipeline_nolayer/PC.v" into library work
+Analyzing Verilog file "E:/homework/CC/verilog_pipeline/pipeline_nolayer/NPC.v" into library work
+Analyzing Verilog file "E:/homework/CC/verilog_pipeline/pipeline_nolayer/IFU.v" into library work
+Analyzing Verilog file "E:/homework/CC/verilog_pipeline/pipeline_nolayer/forward.v" into library work
+Analyzing Verilog file "E:/homework/CC/verilog_pipeline/pipeline_nolayer/DM.v" into library work
+Analyzing Verilog file "E:/homework/CC/verilog_pipeline/pipeline_nolayer/CMP.v" into library work
+Analyzing Verilog file "E:/homework/CC/verilog_pipeline/pipeline_nolayer/AT.v" into library work
+Analyzing Verilog file "E:/homework/CC/verilog_pipeline/pipeline_nolayer/alu.v" into library work
+Analyzing Verilog file "E:/homework/CC/verilog_pipeline/pipeline_nolayer/datapath.v" into library work
+Analyzing Verilog file "E:/homework/CC/verilog_pipeline/pipeline_nolayer/ctrl.v" into library work
+Analyzing Verilog file "E:/homework/CC/verilog_pipeline/pipeline_nolayer/mips.v" into library work
+Analyzing Verilog file "E:/homework/CC/verilog_pipeline/pipeline_nolayer/test.v" into library work
+Analyzing Verilog file "E:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling module AT
+Compiling module main_ctrl
+Compiling module stall
+Compiling module forward
+Compiling module ctrl
+Compiling module IFU
+Compiling module R_pipe
+Compiling module PC
+Compiling module MUX3to1
+Compiling module NPC
+Compiling module ext
+Compiling module CMP
+Compiling module RF
+Compiling module MUX2to1
+Compiling module alu
+Compiling module DM
+Compiling module datapath
+Compiling module mips
+Compiling module test
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 13 sub-compilation(s) to finish...
+Compiled 20 Verilog Units
+Built simulation executable E:/homework/CC/verilog_pipeline/pipeline_nolayer/test_isim_beh.exe
+Fuse Memory Usage: 28988 KB
+Fuse CPU Usage: 968 ms

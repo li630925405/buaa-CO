@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "E:/homework/CC/verilog_pipeline/pipeline_nolayer/test_isim_beh.exe" -prj "E:/homework/CC/verilog_pipeline/pipeline_nolayer/test_beh.prj" "work.test" "work.glbl" 
